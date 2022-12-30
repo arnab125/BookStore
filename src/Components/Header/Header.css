@@ -1,0 +1,14 @@
+.header{
+    background-color: #282c34;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+
+.header h1:hover{
+    transform: scale(1.4) ;
+    transition: 0.5s;
+}
