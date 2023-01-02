@@ -1,0 +1,32 @@
+.last{
+    background-color: #fdfcfc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.last:hover{
+    transform: scale(1.08);
+    box-shadow: 0 5px 10px #ccc;
+    transition: .5s;
+    border: 2px solid black;
+
+}
+
+.singleLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.winnn{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(3, 90, 9);
+}
