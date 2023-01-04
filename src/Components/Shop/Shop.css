@@ -71,3 +71,42 @@
     display: flex;
     flex-direction: column;
 }
+
+/* make this page responisve for mobile */
+
+@media (max-width: 600px) {
+    .shop-container{
+        grid-template-columns: 1fr .5fr;
+    }
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+    .cart-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .para2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .butt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0;
+    }
+
+    
+    
+}

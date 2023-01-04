@@ -18,7 +18,6 @@
 }
 
 .singleLine{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -28,4 +27,18 @@
 .winnn{
     font-weight: bold;
     color: rgb(3, 90, 9);
+}
+
+/* make this page responisve for mobile */
+
+@media (max-width: 600px) {
+    .last{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        border: none;
+        background-color: #82dab700;
+
+    }
+    
 }
