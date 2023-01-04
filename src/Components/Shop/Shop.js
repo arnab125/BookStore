@@ -30,6 +30,12 @@ const Shop = () => {
 
     const add = (book) => {
         //console.log('added',book);
+        for(const p of cart){
+            if(p.name === book.name){
+                alert('Already added');
+                return;
+            }
+        }
         setCart([...cart,book]);
     }
 
