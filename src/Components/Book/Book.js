@@ -6,7 +6,7 @@ import './Book.css';
 const Book = (props) => {
     const {name,company,address} = props.book;
     const add = props.add;
-    const url = 'https://th.bing.com/th/id/OIP.W0bixaTYqsrmK2flYJHAXgHaKk?pid=ImgDet&w=800&h=1141&rs=1';
+    const url = 'https://th.bing.com/th/id/R.2da04171bf70a9310f4ffb1ffc006465?rik=XB6SzOzZcf3XhQ&pid=ImgRaw&r=0s';
     return (
         <div className="book">
             <img src = {url} alt=""/>
