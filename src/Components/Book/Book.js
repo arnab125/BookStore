@@ -14,7 +14,7 @@ const Book = (props) => {
             <h4>Company Name : {company.name}</h4>
             <h4>City : {address.city}</h4>
             <div className='buttonn'>
-                <button onClick = {()=>add(props.book)}><b>Add to cart</b></button>
+                <button onClick = {()=>add(props.book)}><b>Add to Selection</b></button>
             </div>
         </div>
     );
